@@ -99,7 +99,7 @@
    background: url(../images/gallery-1.png);
    background-repeat: no-repeat;
    background-position: center;
-   opacity: 0.8;
+   opacity: 1;
 
    background-size: cover;
 
@@ -260,6 +260,107 @@
     color: #29B6F6;
     text-transform: uppercase;
     
+}
+
+.Contact{
+    background: #AED581;
+}
+.title-contact{
+    padding-top: 50px;
+    width: 100%;
+    height: 50px;
+    display: block;
+    text-align: center;
+
+}
+.title-contact h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    color: #00897B;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+
+
+}
+.form{
+   
+    margin: 30px ;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20%;
+
+   
+
+}
+
+.form input{
+    width: 80%;
+    padding: 9px;
+    margin-top: 8px;
+   text-align: center;
+    border: none;
+    background: #DCE775;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family:Arial, Helvetica, sans-serif ;
+
+
+    
+}
+.form input:focus{
+    outline: 2px solid #00897B;
+}
+.form textarea:focus{
+    outline: 2px solid #00897B;
+}
+.form textarea{
+    width:80% ;
+    height: 171px;
+    margin-top: 8px;
+    border: none;
+    background: #DCE775;
+    text-align: start;
+    padding-left: 96px;
+    border-radius: 15px;
+    padding-top: 7px;
+
+}
+
+
+.btn1{
+    margin-top: 8px;
+    margin-bottom: 120px;
+    padding: 7px;
+    border: none;
+    border-radius: 15px;
+    background: #1E88E5;
+    width: 80%;
+    color: #EF6C00;
+    font-size: 1.5;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 3s ease-in;
+    cursor: pointer;
+
+
+
+    
+
+}
+.btn1:hover{
+   outline: 2px solid #EF6C00;
+   font-size: 2rem;
+   font-weight: bold;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: #0e0d6e;
+   color: #EF6C00;
+  
 }
 @keyframes color2 {
     0%{
